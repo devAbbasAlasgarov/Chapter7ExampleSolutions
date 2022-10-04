@@ -15,6 +15,74 @@ namespace Chapter7ExampleSolutions
 
         public static void Main(string[] args)
         {
+            // Reading Matrices from the Console page 250
+            /*
+            Console.Write("Enter the number of rows: ");
+            int row = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the number of columns: ");
+            int column = int.Parse(Console.ReadLine());
+
+            int[,] matrix = new int[row, column];
+
+            Console.WriteLine("Enter the cells of matrix:");
+
+            for(int i = 0; i < row; i++)
+            {
+                for(int j = 0; j < column; j++)
+                {
+                    Console.Write("matrix[{0}, {1}] = ", i, j);
+                    matrix[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            for(int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for(int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    if (matrix[i, j] > 9)
+                    {
+                        Console.Write(" " + matrix[i, j]);
+                    }
+                    else if (matrix[i, j] <= 9)
+                    {
+                        Console.Write("  " + matrix[i, j]);
+                    }
+                }
+                Console.WriteLine();
+            }
+            */
+
+            // Printing Matrices page249
+            /*
+            int[,] matrix =
+            {
+                {1,2,3,4 },
+                {5,6,7,8 }
+            };
+
+            for(int i = 0; i<matrix.GetLength(0); i++)
+            {
+                for(int j = 0; j<matrix.GetLength(1); j++)
+                {
+                    Console.Write(matrix[i,j] + " ");
+                }
+                Console.WriteLine();
+            }
+            */
+
+            // Two - Dimensional Array Initialization
+            /*
+            int[,] matrix =
+            {
+                {1,2,3,4},
+                {5,6,7,8 },
+                {5,6,7,8 }
+            };
+
+            Console.WriteLine(matrix.GetLength(0));
+            Console.WriteLine(matrix.GetLength(1));
+            */
+
             // Iteration with "foreach" Loop
             /*
             string[] capitals = { "Sofia", "Washington", "London", "Paris" };
